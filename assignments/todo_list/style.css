@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: cursive;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    margin-top: 30px;
+    font-size: 30px;
+    width: 220px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 4px rgb(214, 210, 210);
+    
+}
+
+#btn{
+    background-color: rgb(12, 151, 226);
+    color: white;
+}
+
+#completed{
+    background-color: rgb(78, 221, 7);
+    color: black;
+}
+
+#pending{
+    background-color: red;
+    color: white;
+}
+
+#completed:hover, #pending:hover{
+    background-color: cornflowerblue;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+}
+
+#btn:hover{
+    background-color: #ff3f3f;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+}
+
+.todos{
+    margin: 20px calc(10vw - 30px);
+}
